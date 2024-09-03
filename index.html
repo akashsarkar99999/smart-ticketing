@@ -141,7 +141,7 @@ padding-top: 120px;
 
                     <p class="text-lg text-white">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
 
-                    <div class="btn bg-[#1DD100] text-[#030712] text-xl font-bold pt-[10px] pb-[15px] px-[30px]">Buy Tickets</div>
+                    <div id="buy-tickets-btn" class="btn bg-[#1DD100] text-[#030712] text-xl font-bold pt-[10px] pb-[15px] px-[30px]">Buy Tickets</div>
               
                 </div>
 
@@ -245,7 +245,7 @@ padding-top: 120px;
 
 
       <!-- P.H paribahan section -->
-       <section class="ticket-section text-center mt-[120px] ">
+       <section id="main-section" class="ticket-section text-center mt-[120px] ">
 
        <h1 class="text-[#030712] text-[40px] font-raleway font-bold">P.H Paribahan</h1>
        <p class="text-[#03071299] font-inter text-lg mt-6">Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined .</p>
@@ -398,35 +398,35 @@ padding-top: 120px;
         <div class="w-[55%] h-full  grid grid-cols-3 gap-5">
 
           <div> <p>A</p></div>
-        <button class="btn">A1</button>
-        <button class="btn">A2</button>
+        <button id="A1" onclick="clicked('A1')" class="btn">A1</button>
+        <button id="A2" onclick="clicked('A2')" class="btn">A2</button>
         <div> <p>B</p></div>
-        <button class="btn">B1</button>
-        <button class="btn">B2</button>
+        <button id="B1" onclick="clicked('B1')" class="btn">B1</button>
+        <button id="B2" onclick="clicked('B2')" class="btn">B2</button>
         <div> <p>C</p></div>
-        <button class="btn">C1</button>
-        <button class="btn">C2</button>
+        <button id="C1" onclick="clicked('C1')" class="btn">C1</button>
+        <button id="C2"  onclick="clicked('C2')" class="btn">C2</button>
         <div> <p>D</p></div>
-        <button class="btn">D1</button>
-        <button class="btn">D2</button>
+        <button id="D1" onclick="clicked('D1')" class="btn">D1</button>
+        <button id="D2" onclick="clicked('D2')" class="btn">D2</button>
         <div> <p>E</p></div>
-        <button class="btn">E1</button>
-        <button class="btn">E2</button>
+        <button id="E1" onclick="clicked('E1')" class="btn">E1</button>
+        <button id="E2" onclick="clicked('E2')" class="btn">E2</button>
         <div> <p>F</p></div>
-        <button class="btn">F1</button>
-        <button class="btn">F2</button>
+        <button id="F1" onclick="clicked('F1')" class="btn">F1</button>
+        <button id="F2" onclick="clicked('F2')" class="btn">F2</button>
         <div> <p>G</p></div>
-        <button class="btn">G1</button>
-        <button class="btn">G2</button>
+        <button id="G1" onclick="clicked('G1')" class="btn">G1</button>
+        <button id="G2" onclick="clicked('G2')" class="btn">G2</button>
         <div> <p>H</p></div>
-        <button class="btn">H1</button>
-        <button class="btn">H2</button>
+        <button id="H1" onclick="clicked('H1')" class="btn">H1</button>
+        <button id="H2" onclick="clicked('H2')" class="btn">H2</button>
         <div> <p>I</p></div>
-        <button class="btn">I1</button>
-        <button class="btn">I2</button>
+        <button id="I1" onclick="clicked('I1')" class="btn">I1</button>
+        <button id="I2" onclick="clicked('I2')" class="btn">I2</button>
         <div> <p>J</p></div>
-        <button class="btn">J1</button>
-        <button class="btn">J2</button>
+        <button id="J1" onclick="clicked('J1')" class="btn">J1</button>
+        <button id="J2" onclick="clicked('J2')" class="btn">J2</button>
 
 
       
@@ -437,26 +437,26 @@ padding-top: 120px;
 
         <!-- right coloum S-->
         <div class="w-[45%]  h-full grid grid-cols-2 gap-[20px]">
-          <button class="btn">A3</button>
-          <button class="btn">A4</button>
-          <button class="btn">B3</button>
-          <button class="btn">B4</button>
-          <button class="btn">C3</button>
-          <button class="btn">C4</button>
-          <button class="btn">D3</button>
-          <button class="btn">D4</button>
-          <button class="btn">E3</button>
-          <button class="btn">E4</button>
-          <button class="btn">F3</button>
-          <button class="btn">F4</button>
-          <button class="btn">G3</button>
-          <button class="btn">G4</button>
-          <button class="btn">H3</button>
-          <button class="btn">H4</button>
-          <button class="btn">I3</button>
-          <button class="btn">I4</button>
-          <button class="btn">J3</button>
-          <button class="btn">J4</button>
+          <button id="A3" onclick="clicked('A3')" class="btn">A3</button>
+          <button id="A4" onclick="clicked('A4')" class="btn">A4</button>
+          <button id="B3" onclick="clicked('B3')" class="btn">B3</button>
+          <button id="B4" onclick="clicked('B4')" class="btn">B4</button>
+          <button id="C3" onclick="clicked('C3')" class="btn">C3</button>
+          <button id="C4" onclick="clicked('C4')" class="btn">C4</button>
+          <button id="D3" onclick="clicked('D3')" class="btn">D3</button>
+          <button id="D4" onclick="clicked('D4')" class="btn">D4</button>
+          <button id="E3" onclick="clicked('E3')" class="btn">E3</button>
+          <button id="E4" onclick="clicked('E4')" class="btn">E4</button>
+          <button id="F3" onclick="clicked('F3')" class="btn">F3</button>
+          <button id="F4" onclick="clicked('F4')" class="btn">F4</button>
+          <button id="G3" onclick="clicked('G3')" class="btn">G3</button>
+          <button id="G4" onclick="clicked('G4')" class="btn">G4</button>
+          <button id="H3" onclick="clicked('H3')" class="btn">H3</button>
+          <button id="H4" onclick="clicked('H4')" class="btn">H4</button>
+          <button id="I3" onclick="clicked('I3')" class="btn">I3</button>
+          <button id="I4" onclick="clicked('I4')" class="btn">I4</button>
+          <button id="J3" onclick="clicked('J3')" class="btn">J3</button>
+          <button id="J4" onclick="clicked('J4')" class="btn">J4</button>
 
 
         </div>
@@ -482,7 +482,7 @@ padding-top: 120px;
 
             <div class="flex justify-between">
 
-              <div><p class="font-medium font-inter text-[#030712]">Seat <span>2</span> </p></div>
+              <div><p class="font-medium font-inter text-[#030712]">Seat <span id="seat-quantity">2</span> </p></div>
 
               <div><p class="font-medium font-inter text-[#030712]">Class</p></div>
 
@@ -510,8 +510,8 @@ padding-top: 120px;
 
 
             <div class="wrapper mt-4 ">
-              <input class="border" placeholder="Have any cuppon?" type="text">
-              <button class="btn">
+              <input id="apply-input-field" class="border" placeholder="Have any cuppon?" type="text">
+              <button id="apply-btn" disabled class="btn">
                 Apply
               </button>
 
@@ -619,6 +619,7 @@ padding-top: 120px;
 
     </footer>
     
+   <script src="scripts/index.js"></script>
     
 </body>
 </html>
